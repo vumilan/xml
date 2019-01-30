@@ -7,9 +7,8 @@
     <country id="id_1">
         <name>Vietnam</name>
         <images>
-          <image>01.jpg</image>
-          <image>02.jpg</image>
-          <image>03.jpg</image>
+          <image>images/vietnam_flag.jpg</image>
+          <image>images/vietnam_geography.jpg</image>
         </images>
         <introduction>
           <paragraph>The conquest of Vietnam by France began in 1858 and was completed by 1884. It became part of French Indochina in 1887. Vietnam declared independence after World War II, but France continued to rule until its 1954 defeat by communist forces under Ho Chi MINH. Under the Geneva Accords of 1954, Vietnam was divided into the communist North and anti-communist South. US economic and military aid to South Vietnam grew through the 1960s in an attempt to bolster the government, but US armed forces were withdrawn following a cease-fire agreement in 1973. Two years later, North Vietnamese forces overran the South reuniting the country under communist rule. Despite the return of peace, for over a decade the country experienced little economic growth because of conservative leadership policies, the persecution and mass exodus of individuals - many of them successful South Vietnamese merchants - and growing international isolation. However, since the enactment of Vietnam's "doi moi" (renovation) policy in 1986, Vietnamese authorities have committed to increased economic liberalization and enacted structural reforms needed to modernize the economy and to produce more competitive, export-driven industries. The communist leaders maintain tight control on political expression but have demonstrated some modest steps toward better protection of human rights. The country continues to experience small-scale protests, the vast majority connected to either land-use issues, calls for increased political space, or the lack of equitable mechanisms for resolving disputes. The small-scale protests in the urban areas are often organized by human rights activists, but many occur in rural areas and involve various ethnic minorities such as the Montagnards of the Central Highlands, Hmong in the Northwest Highlands, and the Khmer Krom in the southern delta region.</paragraph>
@@ -93,9 +92,8 @@
     <country id="id_2">
         <name>China</name>
         <images>
-          <image>01.jpg</image>
-          <image>02.jpg</image>
-          <image>03.jpg</image>
+          <image>images/china_flag.jpg</image>
+          <image>images/china_geography.jpg</image>
         </images>
         <introduction>
           <paragraph>China's historical civilization dates from at least 1200 B.C.; from the 3rd century B.C. and for the next two millennia, China alternated between periods of unity and disunity under a succession of imperial dynasties. In the 19th and early 20th centuries, the country was beset by civil unrest, major famines, military defeats, and foreign occupation. After World War II, the Chinese Communist Party under MAO Zedong established an autocratic socialist system that, while ensuring China's sovereignty, imposed strict controls over everyday life and cost the lives of tens of millions of people. After 1978, MAO's successor DENG Xiaoping and other leaders focused on market-oriented economic development and by 2000 output had quadrupled. For much of the population, living standards have improved dramatically but political controls remain tight. Since the early 1990s, China has increased its global outreach and participation in international organizations.</paragraph>
@@ -175,6 +173,91 @@
             <total units="trillion_dollars">1.74</total>
             <partners>South Korea 9.7%, Japan 9.1%, US 8.5%, Germany 5.3%, Australia 5.1%</partners>
             <commodities>electrical and other machinery, including integrated circuits and other computer components, oil and mineral fuels, optical and medical equipment, metal ores, motor vehicles, soybeans</commodities>
+          </import>
+        </economy>
+    </country>
+    <!-- ======= single country end ======= -->
+
+    <!-- ======= single country ======= -->
+    <country id="id_3">
+        <name>United States</name>
+        <images>
+          <image>images/usa_flag.jpg</image>
+          <image>images/usa_geography.jpg</image>
+        </images>
+        <introduction>
+          <paragraph>Britain's American colonies broke with the mother country in 1776 and were recognized as the new nation of the United States of America following the Treaty of Paris in 1783. During the 19th and 20th centuries, 37 new states were added to the original 13 as the nation expanded across the North American continent and acquired a number of overseas possessions. The two most traumatic experiences in the nation's history were the Civil War (1861-65), in which a northern Union of states defeated a secessionist Confederacy of 11 southern slave states, and the Great Depression of the 1930s, an economic downturn during which about a quarter of the labor force lost its jobs. Buoyed by victories in World Wars I and II and the end of the Cold War in 1991, the US remains the world's most powerful nation state. Since the end of World War II, the economy has achieved relatively steady growth, low unemployment and inflation, and rapid advances in technology.</paragraph>
+        </introduction>
+        <geography>
+          <location>North America, bordering both the North Atlantic Ocean and the North Pacific Ocean, between Canada and Mexico</location>
+          <coordinates>38 00 N, 97 00 W</coordinates>
+          <map_references>North America</map_references>
+          <area units="sq km">
+            <a_total>9833517</a_total>
+            <land>9147593</land>
+            <water>685924</water>
+          </area>
+          <climate>mostly temperate, but tropical in Hawaii and Florida, arctic in Alaska, semiarid in the great plains west of the Mississippi River, and arid in the Great Basin of the southwest; low winter temperatures in the northwest are ameliorated occasionally in January and February by warm chinook winds from the eastern slopes of the Rocky Mountains</climate>
+          <terrain>vast central plain, mountains in west, hills and low mountains in east; rugged mountains and broad river valleys in Alaska; rugged, volcanic topography in Hawaii</terrain>
+          <natural_resources>coal, copper, lead, molybdenum, phosphates, rare earth elements, uranium, bauxite, gold, iron, mercury, nickel, potash, silver, tungsten, zinc, petroleum, natural gas, timber, arable land, note, the US has the world's largest coal reserves with 491 billion short tons accounting for 27% of the world's total</natural_resources>
+        </geography>
+        <society>
+          <population>329256465</population>
+          <languages>
+            <language>English</language>
+            <language>Spanish</language>
+            <language>Chinese</language>
+          </languages>
+          <religions>Protestant 46.5%, Roman Catholic 20.8%, Jewish 1.9%, Mormon 1.6%, other Christian 0.9%, Muslim 0.9%, Jehovah's Witness 0.8%, Buddhist 0.7%, Hindu 0.7%, other 1.8%, unaffiliated 22.8%, don't know/refused 0.6%</religions>
+          <birth_rate>12.4 births/1,000 population</birth_rate>
+          <death_rate>8.2 deaths/1,000 population</death_rate>
+          <population_distribution>large urban clusters are spread throughout the eastern half of the US (particularly the Great Lakes area, northeast, east, and southeast) and the western tier states; mountainous areas, principally the Rocky Mountains and Appalachian chain, deserts in the southwest, the dense boreal forests in the extreme north, and the central prarie states are less densely populated; Alaska's population is concentrated along its southern coast - with particular emphasis on the city of Anchorage - and Hawaii's is centered on the island of Oahu</population_distribution>
+        </society>
+        <economy>
+          <overview>
+            <paragraph>The US has the most technologically powerful economy in the world, with a per capita GDP of $59,500. US firms are at or near the forefront in technological advances, especially in computers, pharmaceuticals, and medical, aerospace, and military equipment; however, their advantage has narrowed since the end of World War II. Based on a comparison of GDP measured at purchasing power parity conversion rates, the US economy in 2014, having stood as the largest in the world for more than a century, slipped into second place behind China, which has more than tripled the US growth rate for each year of the past four decades.</paragraph>
+            <paragraph>In the US, private individuals and business firms make most of the decisions, and the federal and state governments buy needed goods and services predominantly in the private marketplace. US business firms enjoy greater flexibility than their counterparts in Western Europe and Japan in decisions to expand capital plant, to lay off surplus workers, and to develop new products. At the same time, businesses face higher barriers to enter their rivals' home markets than foreign firms face entering US markets.</paragraph>
+            <paragraph>Long-term problems for the US include stagnation of wages for lower-income families, inadequate investment in deteriorating infrastructure, rapidly rising medical and pension costs of an aging population, energy shortages, and sizable current account and budget deficits.</paragraph>
+            <paragraph>The onrush of technology has been a driving factor in the gradual development of a "two-tier" labor market in which those at the bottom lack the education and the professional/technical skills of those at the top and, more and more, fail to get comparable pay raises, health insurance coverage, and other benefits. But the globalization of trade, and especially the rise of low-wage producers such as China, has put additional downward pressure on wages and upward pressure on the return to capital. Since 1975, practically all the gains in household income have gone to the top 20% of households. Since 1996, dividends and capital gains have grown faster than wages or any other category of after-tax income.</paragraph>
+            <paragraph>Imported oil accounts for more than 50% of US consumption and oil has a major impact on the overall health of the economy. Crude oil prices doubled between 2001 and 2006, the year home prices peaked; higher gasoline prices ate into consumers' budgets and many individuals fell behind in their mortgage payments. Oil prices climbed another 50% between 2006 and 2008, and bank foreclosures more than doubled in the same period. Besides dampening the housing market, soaring oil prices caused a drop in the value of the dollar and a deterioration in the US merchandise trade deficit, which peaked at $840 billion in 2008. Because the US economy is energy-intensive, falling oil prices since 2013 have alleviated many of the problems the earlier increases had created.</paragraph>
+            <paragraph>The sub-prime mortgage crisis, falling home prices, investment bank failures, tight credit, and the global economic downturn pushed the US into a recession by mid-2008. GDP contracted until the third quarter of 2009, the deepest and longest downturn since the Great Depression. To help stabilize financial markets, the US Congress established a $700 billion Troubled Asset Relief Program in October 2008. The government used some of these funds to purchase equity in US banks and industrial corporations, much of which had been returned to the government by early 2011. In January 2009, Congress passed and former President Barack OBAMA signed a bill providing an additional $787 billion fiscal stimulus to be used over 10 years - two-thirds on additional spending and one-third on tax cuts - to create jobs and to help the economy recover. In 2010 and 2011, the federal budget deficit reached nearly 9% of GDP. In 2012, the Federal Government reduced the growth of spending and the deficit shrank to 7.6% of GDP. US revenues from taxes and other sources are lower, as a percentage of GDP, than those of most other countries.</paragraph>
+            <paragraph>Wars in Iraq and Afghanistan required major shifts in national resources from civilian to military purposes and contributed to the growth of the budget deficit and public debt. Through FY 2018, the direct costs of the wars will have totaled more than $1.9 trillion, according to US Government figures.</paragraph>
+            <paragraph>In March 2010, former President OBAMA signed into law the Patient Protection and Affordable Care Act (ACA), a health insurance reform that was designed to extend coverage to an additional 32 million Americans by 2016, through private health insurance for the general population and Medicaid for the impoverished. Total spending on healthcare - public plus private - rose from 9.0% of GDP in 1980 to 17.9% in 2010.</paragraph>
+            <paragraph>In July 2010, the former president signed the DODD-FRANK Wall Street Reform and Consumer Protection Act, a law designed to promote financial stability by protecting consumers from financial abuses, ending taxpayer bailouts of financial firms, dealing with troubled banks that are "too big to fail," and improving accountability and transparency in the financial system - in particular, by requiring certain financial derivatives to be traded in markets that are subject to government regulation and oversight.</paragraph>
+            <paragraph>The Federal Reserve Board (Fed) announced plans in December 2012 to purchase $85 billion per month of mortgage-backed and Treasury securities in an effort to hold down long-term interest rates, and to keep short-term rates near zero until unemployment dropped below 6.5% or inflation rose above 2.5%. The Fed ended its purchases during the summer of 2014, after the unemployment rate dropped to 6.2%, inflation stood at 1.7%, and public debt fell below 74% of GDP. In December 2015, the Fed raised its target for the benchmark federal funds rate by 0.25%, the first increase since the recession began. With continued low growth, the Fed opted to raise rates several times since then, and in December 2017, the target rate stood at 1.5%.</paragraph>
+            <paragraph>In December 2017, Congress passed and President Donald TRUMP signed the Tax Cuts and Jobs Act, which, among its various provisions, reduces the corporate tax rate from 35% to 21%; lowers the individual tax rate for those with the highest incomes from 39.6% to 37%, and by lesser percentages for those at lower income levels; changes many deductions and credits used to calculate taxable income; and eliminates in 2019 the penalty imposed on taxpayers who do not obtain the minimum amount of health insurance required under the ACA. The new taxes took effect on 1 January 2018; the tax cut for corporations are permanent, but those for individuals are scheduled to expire after 2025. The Joint Committee on Taxation (JCT) under the Congressional Budget Office estimates that the new law will reduce tax revenues and increase the federal deficit by about $1.45 trillion over the 2018-2027 period. This amount would decline if economic growth were to exceed the JCT’s estimate.</paragraph>
+          </overview>
+          <gdp>
+            <purchasing_power_parity units="trillion_dollars">19.49</purchasing_power_parity>
+            <official_exchange_rate units="trillion_dollars">19.49</official_exchange_rate>
+            <real_growth_rate units="percentage">2.2</real_growth_rate>
+            <per_capital units="dollars">59800</per_capital>
+            <composition>
+              <by_end_use units="percentage">
+                <household_consumption>68.4</household_consumption>
+                <government_consumption>17.3</government_consumption>
+                <investment_in_fixed_capital>17.2</investment_in_fixed_capital>
+                <investment_in_inventories>0.1</investment_in_inventories>
+                <exports_of_goods_and_services>12.1</exports_of_goods_and_services>
+                <imports_of_goods_and_services>-15</imports_of_goods_and_services>
+              </by_end_use>
+              <by_sector_of_origin units="percentage">
+                <agriculture>0.9</agriculture>
+                <industry>19.1</industry>
+                <services>80</services>
+              </by_sector_of_origin>
+            </composition>
+          </gdp>
+          <debt units="trillion_dollars">17.91</debt>
+          <export>
+            <total units="trillion_dollars">1.553</total>
+            <partners>Canada 18.3%, Mexico 15.7%, China 8.4%, Japan 4.4%</partners>
+            <commodities>agricultural products (soybeans, fruit, corn) 9.2%, industrial supplies (organic chemicals) 26.8%, capital goods (transistors, aircraft, motor vehicle parts, computers, telecommunications equipment) 49.0%, consumer goods (automobiles, medicines) 15.0%</commodities>
+          </export>
+          <import>
+            <total units="trillion_dollars">2.361</total>
+            <partners>China 21.6%, Mexico 13.4%, Canada 12.8%, Japan 5.8%, Germany 5%</partners>
+            <commodities>agricultural products 4.9%, industrial supplies 32.9% (crude oil 8.2%), capital goods 30.4% (computers, telecommunications equipment, motor vehicle parts, office machines, electric power machinery), consumer goods 31.8% (automobiles, clothing, medicines, furniture, toys)</commodities>
           </import>
         </economy>
     </country>
