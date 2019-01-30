@@ -1,0 +1,61 @@
+<!ELEMENT country_fact_document (country+)>
+
+<!ELEMENT country (name, images, introduction, geography, society, economy)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT images (image+)>
+<!ELEMENT introduction (paragraph+)>
+<!ELEMENT geography (location, coordinates, map_references, area, climate, terrain, natural_resources)>
+<!ELEMENT society (population, languages, religions, birth_rate, death_rate, population_distribution, literacy)>
+<!ELEMENT economy (overview, gdp, debt, export, import)>
+
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT coordinates (#PCDATA)>
+<!ELEMENT map_references (#PCDATA)>
+<!ELEMENT area (a_total, land, water)>
+<!ELEMENT climate (#PCDATA)>
+<!ELEMENT terrain (#PCDATA)>
+<!ELEMENT natural_resources (#PCDATA)>
+<!ELEMENT population (#PCDATA)>
+<!ELEMENT languages (language+)>
+<!ELEMENT religions (#PCDATA)>
+<!ELEMENT birth_rate (#PCDATA)>
+<!ELEMENT death_rate (#PCDATA)>
+<!ELEMENT population_distribution (#PCDATA)>
+<!ELEMENT literacy (definition, total_population, male, female)>
+<!ELEMENT overview (paragraph+)>
+<!ELEMENT gdp (purchasing_power_parity, official_exchange_rate, real_growth_rate, per_capital, composition)>
+<!ELEMENT debt (#PCDATA)>
+<!ELEMENT export (total, partners, commodities)>
+<!ELEMENT import (total, partners, commodities)>
+
+<!ELEMENT paragraph (#PCDATA)>
+<!ELEMENT a_total (#PCDATA)>
+<!ELEMENT land (#PCDATA)>
+<!ELEMENT water (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT definition (#PCDATA)>
+<!ELEMENT total_population (#PCDATA)>
+<!ELEMENT male (#PCDATA)>
+<!ELEMENT female (#PCDATA)>
+<!ELEMENT purchasing_power_parity (#PCDATA)>
+<!ELEMENT official_exchange_rate (#PCDATA)>
+<!ELEMENT real_growth_rate (#PCDATA)>
+<!ELEMENT per_capital (#PCDATA)>
+<!ELEMENT composition (by_end_use, by_sector_of_origin)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT partners (#PCDATA)>
+<!ELEMENT commodities (#PCDATA)>
+
+<!ATTLIST country id ID #REQUIRED>
+<!ATTLIST area units CDATA #FIXED "sq km">
+<!ATTLIST literacy units CDATA #FIXED "percentage">
+<!ATTLIST purchasing_power_parity units (billion dollars|trillion dollars) "billion dollars">
+<!ATTLIST official_exchange_rate units (dollars|billion dollars|trillion dollars) "dollars">
+<!ATTLIST real_growth_rate units CDATA #FIXED "percentage">
+<!ATTLIST per_capital units (dollars|billion dollars|trillion dollars) "dollars">
+<!ATTLIST by_end_use units CDATA #FIXED "percentage">
+<!ATTLIST by_sector_of_origin units CDATA #FIXED "percentage">
+<!ATTLIST debt units (dollars|billion dollars|trillion dollars) "dollars">
+<!ATTLIST total units (dollars|billion dollars|trillion dollars) "dollars">
