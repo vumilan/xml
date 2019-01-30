@@ -19,7 +19,7 @@
           <coordinates>16 10 N, 107 50 E</coordinates>
           <map_references>Southeast Asia</map_references>
           <area units="sq km">
-            <total>331210</total>
+            <a_total>331210</a_total>
             <land>310070</land>
             <water>21140</water>
           </area>
@@ -29,7 +29,12 @@
         </geography>
         <society>
           <population>97040334</population>
-          <languages>Vietnamese (official), English (increasingly favored as a second language), some French, Chinese, and Khmer, mountain area languages (Mon-Khmer and Malayo-Polynesian)</languages>
+          <languages>
+            <language>Vietnamese</language>
+            <language>English</language>
+            <language>French</language>
+            <language>Chinese</language>
+          </languages>
           <religions>Buddhist 7.9%, Catholic 6.6%, Hoa Hao 1.7%, Cao Dai 0.9%, Protestant 0.9%, Muslim 0.1%, none 81.8%</religions>
           <birth_rate>15.2 births/1,000 population</birth_rate>
           <death_rate>5.9 deaths/1,000 population</death_rate>
@@ -71,12 +76,12 @@
           </gdp>
           <debt units="billion dollars">96.58</debt>
           <export>
-            <total units="billion dollars">214.1</total>
+            <total units="billion dollars">214.1</e_total>
             <partners>US 20.1%, China 14.5%, Japan 8%, South Korea 6.8%</partners>
             <commodities>clothes, shoes, electronics, seafood, crude oil, rice, coffee, wooden products, machinery</commodities>
           </export>
           <import>
-            <total units="billion dollars">202.6</total>
+            <total units="billion dollars">202.6</i_total>
             <partners>China 25.8%, South Korea 20.5%, Japan 7.8%, Thailand 4.9%</partners>
             <commodities>machinery and equipment, petroleum products, steel products, raw materials for the clothing and shoe industries, electronics, plastics, automobiles</commodities>
           </import>
@@ -85,7 +90,7 @@
     <!-- ======= single country end ======= -->
 
     <!-- ======= single country ======= -->
-    <country id="1">
+    <country id="2">
         <name>China</name>
         <images>
           <image>01.jpg</image>
@@ -110,7 +115,17 @@
         </geography>
         <society>
           <population>1384688986</population>
-          <languages>Standard Chinese or Mandarin (official; Putonghua, based on the Beijing dialect), Yue (Cantonese), Wu (Shanghainese), Minbei (Fuzhou), Minnan (Hokkien-Taiwanese), Xiang, Gan, Hakka dialects, minority languages (see Ethnic groups entry)</languages>
+          <languages>
+            <language>Mandarin</language>
+            <language>Putonghua</language>
+            <language>Yue</language>
+            <language>Wu</language>
+            <language>Minbei</language>
+            <language>Minnan</language>
+            <language>Xiang</language>
+            <language>Gan</language>
+            <language>Hakka</language>
+          </languages>
           <religions>Buddhist 18.2%, Christian 5.1%, Muslim 1.8%, folk religion 21.9%, Hindu < 0.1%, Jewish < 0.1%, other 0.7% (includes Daoist (Taoist)), unaffiliated 52.2%</religions>
           <birth_rate>12.1 births/1,000 population</birth_rate>
           <death_rate>8 deaths/1,000 population</death_rate>
