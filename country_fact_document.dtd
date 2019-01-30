@@ -6,7 +6,7 @@
 <!ELEMENT images (image+)>
 <!ELEMENT introduction (paragraph+)>
 <!ELEMENT geography (location, coordinates, map_references, area, climate, terrain, natural_resources)>
-<!ELEMENT society (population, languages, religions, birth_rate, death_rate, population_distribution, literacy)>
+<!ELEMENT society (population, languages, religions, birth_rate, death_rate, population_distribution, literacy?)>
 <!ELEMENT economy (overview, gdp, debt, export, import)>
 
 <!ELEMENT image (#PCDATA)>
