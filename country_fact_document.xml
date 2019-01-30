@@ -4,7 +4,7 @@
 
 <country_fact_document language="en">
     <!-- ======= single country ======= -->
-    <country id="1">
+    <country id="id_1">
         <name>Vietnam</name>
         <images>
           <image>01.jpg</image>
@@ -54,8 +54,8 @@
             <paragraph>In 2016, Vietnam cancelled its civilian nuclear energy development program, citing public concerns about safety and the high cost of the program; it faces growing pressure on energy infrastructure. Overall, the country’s infrastructure fails to meet the needs of an expanding middle class. Vietnam has demonstrated a commitment to sustainable growth over the last several years, but despite the recent speed-up in economic growth the government remains cautious about the risk of external shocks.</paragraph>
           </overview>
           <gdp>
-            <purchasing_power_parity units="billion dollars">648.7</purchasing_power_parity>
-            <official_exchange_rate units="billion dollars">220.4</official_exchange_rate>
+            <purchasing_power_parity units="billion_dollars">648.7</purchasing_power_parity>
+            <official_exchange_rate units="billion_dollars">220.4</official_exchange_rate>
             <real_growth_rate units="percentage">6.8</real_growth_rate>
             <per_capital units="dollars">6900</per_capital>
             <composition>
@@ -74,14 +74,14 @@
               </by_sector_of_origin>
             </composition>
           </gdp>
-          <debt units="billion dollars">96.58</debt>
+          <debt units="billion_dollars">96.58</debt>
           <export>
-            <total units="billion dollars">214.1</e_total>
+            <total units="billion_dollars">214.1</total>
             <partners>US 20.1%, China 14.5%, Japan 8%, South Korea 6.8%</partners>
             <commodities>clothes, shoes, electronics, seafood, crude oil, rice, coffee, wooden products, machinery</commodities>
           </export>
           <import>
-            <total units="billion dollars">202.6</i_total>
+            <total units="billion_dollars">202.6</total>
             <partners>China 25.8%, South Korea 20.5%, Japan 7.8%, Thailand 4.9%</partners>
             <commodities>machinery and equipment, petroleum products, steel products, raw materials for the clothing and shoe industries, electronics, plastics, automobiles</commodities>
           </import>
@@ -90,7 +90,7 @@
     <!-- ======= single country end ======= -->
 
     <!-- ======= single country ======= -->
-    <country id="2">
+    <country id="id_2">
         <name>China</name>
         <images>
           <image>01.jpg</image>
@@ -105,7 +105,7 @@
           <coordinates>35 00 N, 105 00 E</coordinates>
           <map_references>Asia</map_references>
           <area units="sq km">
-            <total>9596960</total>
+            <a_total>9596960</a_total>
             <land>9326410</land>
             <water>270550</water>
           </area>
@@ -126,7 +126,7 @@
             <language>Gan</language>
             <language>Hakka</language>
           </languages>
-          <religions>Buddhist 18.2%, Christian 5.1%, Muslim 1.8%, folk religion 21.9%, Hindu < 0.1%, Jewish < 0.1%, other 0.7% (includes Daoist (Taoist)), unaffiliated 52.2%</religions>
+          <religions>Buddhist 18.2%, Christian 5.1%, Muslim 1.8%, folk religion 21.9%, Hindu 0.1%, Jewish 0.1%, other 0.7% (includes Daoist (Taoist)), unaffiliated 52.2%</religions>
           <birth_rate>12.1 births/1,000 population</birth_rate>
           <death_rate>8 deaths/1,000 population</death_rate>
           <population_distribution>overwhelming majority of the population is found in the eastern half of the country; the west, with its vast mountainous and desert areas, remains sparsely populated; though ranked first in the world in total population, overall density is less than that of many other countries in Asia and Europe; high population density is found along the Yangtze and Yellow River valleys, the Xi Jiang River delta, the Sichuan Basin (around Chengdu), in and around Beijing, and the industrial area around Shenyang</population_distribution>
@@ -145,8 +145,8 @@
             <paragraph>The government's 13th Five-Year Plan, unveiled in March 2016, emphasizes the need to increase innovation and boost domestic consumption to make the economy less dependent on government investment, exports, and heavy industry. However, China has made more progress on subsidizing innovation than rebalancing the economy. Beijing has committed to giving the market a more decisive role in allocating resources, but the Chinese Government’s policies continue to favor state-owned enterprises and emphasize stability. Chinese leaders in 2010 pledged to double China’s GDP by 2020, and the 13th Five Year Plan includes annual economic growth targets of at least 6.5% through 2020 to achieve that goal. In recent years, China has renewed its support for state-owned enterprises in sectors considered important to "economic security," explicitly looking to foster globally competitive industries. Chinese leaders also have undermined some market-oriented reforms by reaffirming the "dominant" role of the state in the economy, a stance that threatens to discourage private initiative and make the economy less efficient over time. The slight acceleration in economic growth in 2017—the first such uptick since 2010—gives Beijing more latitude to pursue its economic reforms, focusing on financial sector deleveraging and its Supply-Side Structural Reform agenda, first announced in late 2015.</paragraph>
           </overview>
           <gdp>
-            <purchasing_power_parity units="trillion dollars">23.21</purchasing_power_parity>
-            <official_exchange_rate units="trillion dollars">12.01</official_exchange_rate>
+            <purchasing_power_parity units="trillion_dollars">23.21</purchasing_power_parity>
+            <official_exchange_rate units="trillion_dollars">12.01</official_exchange_rate>
             <real_growth_rate units="percentage">6.9</real_growth_rate>
             <per_capital units="dollars">16700</per_capital>
             <composition>
@@ -165,14 +165,14 @@
               </by_sector_of_origin>
             </composition>
           </gdp>
-          <debt units="trillion dollars">1.598</debt>
+          <debt units="trillion_dollars">1.598</debt>
           <export>
-            <total units="trillion dollars">2.216</total>
+            <total units="trillion_dollars">2.216</total>
             <partners>US 19%, Hong Kong 12.4%, Japan 6%, South Korea 4.5%</partners>
             <commodities>electrical and other machinery, including computers and telecommunications equipment, apparel, furniture, textiles</commodities>
           </export>
           <import>
-            <total units="trillion dollars">1.74</total>
+            <total units="trillion_dollars">1.74</total>
             <partners>South Korea 9.7%, Japan 9.1%, US 8.5%, Germany 5.3%, Australia 5.1%</partners>
             <commodities>electrical and other machinery, including integrated circuits and other computer components, oil and mineral fuels, optical and medical equipment, metal ores, motor vehicles, soybeans</commodities>
           </import>
