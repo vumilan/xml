@@ -1,8 +1,16 @@
 # XML semestral work
 
-## Assignment:
+## Commands:
+#### DTD
+```
+xmllint --noout --dtdvalid country_fact_document.dtd country_fact_document.xml
+```
+#### RelaxNG
+```
+xmllint --noout --relaxng country_fact_document.rng country_fact_document.xml
+```
 
-#### TODO:
+## Assignment:
 
 - Vytvořte XML dokument se všemi daty pro každou zadanou oblast (z
   https://www.cia.gov/library/publications/the-world-factbook/). Pokud
@@ -10,6 +18,8 @@
   se rozhodnete vytvářet XML manuálně), uveďte alespoň základní data u
   všech hlavních sekcí (tj. Introduction, Geography, atd.). Dále spojte XML
   dokumenty pro jednotlivé oblasti do jediného dokumentu pomocí DTD.
+
+#### TODO:
 
 - Vytvořte schema pomocí DTD i RelaxNG pro validaci struktury XML
   dokumentů. V RelaxNG schema se pokuste využít alespoň některé možnosti
