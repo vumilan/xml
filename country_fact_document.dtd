@@ -48,14 +48,28 @@
 <!ELEMENT partners (#PCDATA)>
 <!ELEMENT commodities (#PCDATA)>
 
+<!ELEMENT by_end_use (household_consumption, government_consumption, investment_in_fixed_capital, investment_in_inventories, exports_of_goods_and_services, imports_of_goods_and_services)>
+<!ELEMENT by_sector_of_origin (agriculture, industry, services)>
+
+<!ELEMENT household_consumption (#PCDATA)>
+<!ELEMENT government_consumption (#PCDATA)>
+<!ELEMENT investment_in_fixed_capital (#PCDATA)>
+<!ELEMENT investment_in_inventories (#PCDATA)>
+<!ELEMENT exports_of_goods_and_services (#PCDATA)>
+<!ELEMENT imports_of_goods_and_services (#PCDATA)>
+<!ELEMENT agriculture (#PCDATA)>
+<!ELEMENT industry (#PCDATA)>
+<!ELEMENT services (#PCDATA)>
+
+<!ATTLIST country_fact_document language CDATA #IMPLIED>
 <!ATTLIST country id ID #REQUIRED>
 <!ATTLIST area units CDATA #FIXED "sq km">
 <!ATTLIST literacy units CDATA #FIXED "percentage">
-<!ATTLIST purchasing_power_parity units (billion dollars|trillion dollars) "billion dollars">
-<!ATTLIST official_exchange_rate units (dollars|billion dollars|trillion dollars) "dollars">
+<!ATTLIST purchasing_power_parity units (dollars|billion_dollars|trillion_dollars) "dollars">
+<!ATTLIST official_exchange_rate units (dollars|billion_dollars|trillion_dollars) "dollars">
 <!ATTLIST real_growth_rate units CDATA #FIXED "percentage">
-<!ATTLIST per_capital units (dollars|billion dollars|trillion dollars) "dollars">
+<!ATTLIST per_capital units (dollars|billion_dollars|trillion_dollars) "dollars">
 <!ATTLIST by_end_use units CDATA #FIXED "percentage">
 <!ATTLIST by_sector_of_origin units CDATA #FIXED "percentage">
-<!ATTLIST debt units (dollars|billion dollars|trillion dollars) "dollars">
-<!ATTLIST total units (dollars|billion dollars|trillion dollars) "dollars">
+<!ATTLIST debt units (dollars|billion_dollars|trillion_dollars) "dollars">
+<!ATTLIST total units (dollars|billion_dollars|trillion_dollars) "dollars">
