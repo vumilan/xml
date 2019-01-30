@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element name="country_fact_document" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <attribute name="language">
+        <data type="string"/>
+    </attribute>
+    <oneOrMore>
+        <element name="country">
+            <attribute name="id">
+                <data type="string"/>
+            </attribute>
+            <element name="name">
+                <data type="string"/>
+            </element>
+            <element name="images">
+                <oneOrMore>
+                    <element name="image">
+                        <data type="string"/>
+                    </element>
+                </oneOrMore>
+            </element>
+            <element name="introduction">
+                <oneOrMore>
+                    <element name="paragraph">
+                        <data type="string"/>
+                    </element>
+                </oneOrMore>
+            </element>
+            <element name="geography">
+                <element name="location">
+                    <data type="string"/>
+                </element>
+                <element name="coordinates">
+                    <data type="string"/>
+                </element>
+                <element name="map_references">
+                    <data type="string"/>
+                </element>
+                <element name="area">
+                    <attribute name="units">
+                        <data type="string"/>
+                    </attribute>
+                    <element name="a_total">
+                        <data type="float"/>
+                    </element>
+                    <element name="land">
+                        <data type="float"/>
+                    </element>
+                    <element name="water">
+                        <data type="float"/>
+                    </element>
+                </element>
+                <element name="climate">
+                    <data type="string"/>
+                </element>
+                <element name="terrain">
+                    <data type="string"/>
+                </element>
+                <element name="natural_resources">
+                    <data type="string"/>
+                </element>
+            </element>
+            <element name="society">
+                <element name="population">
+                    <data type="int"/>
+                </element>
+                <element name="languages">
+                    <oneOrMore>
+                        <element name="language">
+                            <data type="string"/>
+                        </element>
+                    </oneOrMore>
+                </element>
+                <element name="religions">
+                    <data type="string"/>
+                </element>
+                <element name="birth_rate">
+                    <data type="string"/>
+                </element>
+                <element name="death_rate">
+                    <data type="string"/>
+                </element>
+                <element name="population_distribution">
+                    <data type="string"/>
+                </element>
+                <optional>
+                    <element name="literacy">
+                        <attribute name="units">
+                            <data type="string"/>
+                        </attribute>
+                        <element name="definition">
+                            <data type="string"/>
+                        </element>
+                        <element name="total_population">
+                            <data type="float"/>
+                        </element>
+                        <element name="male">
+                            <data type="float"/>
+                        </element>
+                        <element name="female">
+                            <data type="float"/>
+                        </element>
+                    </element>
+                </optional>
+            </element>
+            <element name="economy">
+                <element name="overview">
+                    <oneOrMore>
+                        <element name="paragraph">
+                            <data type="string"/>
+                        </element>
+                    </oneOrMore>
+                </element>
+                <element name="gdp">
+                    <element name="purchasing_power_parity">
+                        <attribute name="units">
+                            <data type="string"/>
+                        </attribute>
+                        <data type="float"/>
+                    </element>
+                    <element name="official_exchange_rate">
+                        <attribute name="units">
+                            <data type="string"/>
+                        </attribute>
+                        <data type="float"/>
+                    </element>
+                    <element name="real_growth_rate">
+                        <attribute name="units">
+                            <data type="string"/>
+                        </attribute>
+                        <data type="float"/>
+                    </element>
+                    <element name="per_capital">
+                        <attribute name="units">
+                            <data type="string"/>
+                        </attribute>
+                        <data type="float"/>
+                    </element>
+                    <element name="composition">
+                        <element name="by_end_use">
+                            <attribute name="units">
+                                <data type="string"/>
+                            </attribute>
+                            <element name="household_consumption">
+                                <data type="float"/>
+                            </element>
+                            <element name="government_consumption">
+                                <data type="float"/>
+                            </element>
+                            <element name="investment_in_fixed_capital">
+                                <data type="float"/>
+                            </element>
+                            <element name="investment_in_inventories">
+                                <data type="float"/>
+                            </element>
+                            <element name="exports_of_goods_and_services">
+                                <data type="float"/>
+                            </element>
+                            <element name="imports_of_goods_and_services">
+                                <data type="float"/>
+                            </element>
+                        </element>
+                        <element name="by_sector_of_origin">
+                            <attribute name="units">
+                                <data type="string"/>
+                            </attribute>
+                            <element name="agriculture">
+                                <data type="float"/>
+                            </element>
+                            <element name="industry">
+                                <data type="float"/>
+                            </element>
+                            <element name="services">
+                                <data type="float"/>
+                            </element>
+                        </element>
+                    </element>
+                </element>
+                <element name="debt">
+                    <attribute name="units">
+                        <data type="string"/>
+                    </attribute>
+                    <data type="float"/>
+                </element>
+                <element name="export">
+                    <element name="total">
+                        <attribute name="units">
+                            <data type="string"/>
+                        </attribute>
+                        <data type="float"/>
+                    </element>
+                    <element name="partners">
+                        <data type="string"/>
+                    </element>
+                    <element name="commodities">
+                        <data type="string"/>
+                    </element>
+                </element>
+                <element name="import">
+                    <element name="total">
+                        <attribute name="units">
+                            <data type="string"/>
+                        </attribute>
+                        <data type="float"/>
+                    </element>
+                    <element name="partners">
+                        <data type="string"/>
+                    </element>
+                    <element name="commodities">
+                        <data type="string"/>
+                    </element>
+                </element>
+            </element>
+        </element>
+    </oneOrMore>
+</element>
