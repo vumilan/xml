@@ -9,6 +9,11 @@ xmllint --noout --dtdvalid country_fact_document.dtd country_fact_document.xml
 ```
 xmllint --noout --relaxng country_fact_document.rng country_fact_document.xml
 ```
+#### xHTML
+```
+cd xhtml
+xsltproc -o index.html xhtml-transformation.xsl ../country_fact_document.xml
+```
 
 ## Assignment:
 
