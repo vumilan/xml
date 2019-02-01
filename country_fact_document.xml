@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<!DOCTYPE country_fact_document SYSTEM "country_fact_document.dtd">
-
 <country_fact_document language="en">
     <!-- ======= single country ======= -->
     <country id="id_1">
