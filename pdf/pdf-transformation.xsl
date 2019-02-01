@@ -13,7 +13,7 @@
 
             <fo:region-body margin-top="1cm" margin-bottom="0.2cm" />
             <fo:region-before extent="1cm"/>
-            <fo:region-after extent="0.5cm"/>
+            <fo:region-after extent="1.5cm"/>
 
          </fo:simple-page-master>
      </fo:layout-master-set>
@@ -77,7 +77,7 @@
                  <fo:block text-align="center" font-weight="bold" font-size="25pt" id="{@id}">
                     <xsl:value-of select="name" />
                  </fo:block>
-                 <fo:table>
+                 <fo:table table-layout="auto">
                    <fo:table-column column-width="50%"/>
                    <fo:table-column column-width="50%"/>
                    <fo:table-body>
