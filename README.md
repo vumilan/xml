@@ -12,9 +12,13 @@ xmllint --noout --relaxng country_fact_document.rng country_fact_document.xml
 #### xHTML
 ```
 cd xhtml
-xsltproc -o index.html xhtml-transformation.xsl ../country_fact_document.xml
+java -jar /path/saxon9he.jar ../country_fact_document.xml xhtml-transformation.xslt
 ```
-
+#### PDF
+```
+cd pdf
+fop -xml ../country_fact_document.xml -xsl pdf-transformation.xsl -pdf pdf-output.pdf
+```
 ## Assignment:
 
 - Vytvořte XML dokument se všemi daty pro každou zadanou oblast (z
@@ -23,8 +27,6 @@ xsltproc -o index.html xhtml-transformation.xsl ../country_fact_document.xml
   se rozhodnete vytvářet XML manuálně), uveďte alespoň základní data u
   všech hlavních sekcí (tj. Introduction, Geography, atd.). Dále spojte XML
   dokumenty pro jednotlivé oblasti do jediného dokumentu pomocí DTD.
-
-#### TODO:
 
 - Vytvořte schema pomocí DTD i RelaxNG pro validaci struktury XML
   dokumentů. V RelaxNG schema se pokuste využít alespoň některé možnosti
