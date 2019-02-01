@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<country_fact_document language="en">
+    <!-- ======= single country ======= -->
+    <country id="id_4">
+        <name>Singapore</name>
+        <images>
+          <image>images/singapore_flag.gif</image>
+          <image>images/singapore_geography.gif</image>
+        </images>
+        <introduction>
+          <paragraph>A Malay trading port known as Temasek existed on the island of Singapore by the 14th century. The settlement changed hands several times in the ensuing centuries and was eventually burned in the 17th century and fell into obscurity. The British founded Singapore as a trading colony on the site in 1819. It joined the Malaysian Federation in 1963 but was ousted two years later and became independent. Singapore subsequently became one of the world's most prosperous countries with strong international trading links (its port is one of the world's busiest in terms of tonnage handled) and with per capita GDP equal to that of the leading nations of Western Europe.</paragraph>
+        </introduction>
+        <geography>
+          <location>Southeastern Asia, islands between Malaysia and Indonesia</location>
+          <coordinates>1 22 N, 103 48 E</coordinates>
+          <map_references>Southeast Asia</map_references>
+          <area units="sq km">
+            <a_total>719.2</a_total>
+            <land>709.2</land>
+            <water>10</water>
+          </area>
+          <climate>tropical; hot, humid, rainy; two distinct monsoon seasons - northeastern monsoon (December to March) and southwestern monsoon (June to September); inter-monsoon - frequent afternoon and early evening thunderstorms</climate>
+          <terrain>lowlying, gently undulating central plateau</terrain>
+          <natural_resources>fish, deepwater ports</natural_resources>
+        </geography>
+        <society>
+          <population>5995991</population>
+          <languages>
+            <language>English</language>
+            <language>Mandarin</language>
+            <language>Malay</language>
+            <language>Tamil</language>
+          </languages>
+          <religions>Buddhist 33.2%, Christian 18.8%, Muslim 14%, Taoist 10%, Hindu 5%, other 0.6%, none 18.5%</religions>
+          <birth_rate>8.7 births/1,000 population</birth_rate>
+          <death_rate>3.5 deaths/1,000 population</death_rate>
+          <population_distribution>most of the urbanization is along the southern coast, with relatively dense population clusters found in the central areas</population_distribution>
+          <literacy units="percentage">
+            <definition>age 15 and over can read and write</definition>
+            <total_population>97</total_population>
+            <male>98.7</male>
+            <female>95.4</female>
+          </literacy>
+        </society>
+        <economy>
+          <overview>
+            <paragraph>Singapore has a highly developed and successful free-market economy. It enjoys an open and corruption-free environment, stable prices, and a per capita GDP higher than that of most developed countries. Unemployment is very low. The economy depends heavily on exports, particularly of electronics, petroleum products, chemicals, medical and optical devices, pharmaceuticals, and on Singapore’s vibrant transportation, business, and financial services sectors.</paragraph>
+            <paragraph>The economy contracted 0.6% in 2009 as a result of the global financial crisis, but has continued to grow since 2010. Growth from 2012-2017 was slower than during the previous decade, a result of slowing structural growth - as Singapore reached high-income levels - and soft global demand for exports. Growth recovered to 3.6% in 2017 with a strengthening global economy.</paragraph>
+            <paragraph>The government is attempting to restructure Singapore’s economy to reduce its dependence on foreign labor, raise productivity growth, and increase wages amid slowing labor force growth and an aging population. Singapore has attracted major investments in advanced manufacturing, pharmaceuticals, and medical technology production and will continue efforts to strengthen its position as Southeast Asia's leading financial and technology hub. Singapore is a signatory of the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP), and a party to the Regional Comprehensive Economic Partnership (RCEP) negotiations with nine other ASEAN members plus Australia, China, India, Japan, South Korea, and New Zealand. In 2015, Singapore formed, with the other ASEAN members, the ASEAN Economic Community.</paragraph>
+          </overview>
+          <gdp>
+            <purchasing_power_parity units="billion_dollars">528.1</purchasing_power_parity>
+            <official_exchange_rate units="billion_dollars">323.9</official_exchange_rate>
+            <real_growth_rate units="percentage">3.6</real_growth_rate>
+            <per_capital units="dollars">94100</per_capital>
+            <composition>
+              <by_end_use units="percentage">
+                <household_consumption>35.6</household_consumption>
+                <government_consumption>10.9</government_consumption>
+                <investment_in_fixed_capital>24.8</investment_in_fixed_capital>
+                <investment_in_inventories>2.8</investment_in_inventories>
+                <exports_of_goods_and_services>173.3</exports_of_goods_and_services>
+                <imports_of_goods_and_services>-149.1</imports_of_goods_and_services>
+              </by_end_use>
+              <by_sector_of_origin units="percentage">
+                <agriculture>0</agriculture>
+                <industry>24.8</industry>
+                <services>75.2</services>
+              </by_sector_of_origin>
+            </composition>
+          </gdp>
+          <debt units="billion_dollars">566.1</debt>
+          <export>
+            <total units="billion_dollars">396.8</total>
+            <partners>China 14.7%, Hong Kong 12.6%, Malaysia 10.8%, US 6.6%, Indonesia 5.8%, Japan 4.7%, South Korea 4.6%, Thailand 4%</partners>
+            <commodities>machinery and equipment (including electronics and telecommunications), pharmaceuticals and other chemicals, refined petroleum products, foodstuffs and beverages</commodities>
+          </export>
+          <import>
+            <total units="billion_dollars">312.1</total>
+            <partners>China 13.9%, Malaysia 12%, US 10.7%, Japan 6.3%, South Korea 5%</partners>
+            <commodities>machinery and equipment, mineral fuels, chemicals, foodstuffs, consumer goods</commodities>
+          </import>
+        </economy>
+    </country>
+    <!-- ======= single country end ======= -->
+</country_fact_document>
